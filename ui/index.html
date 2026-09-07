@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phil's Cattle Drive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rye&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Menu -->
+    <div id="cattle-menu" class="hidden">
+        <div class="cattle-container">
+            <!-- Header -->
+            <div class="cattle-header">
+                <div class="header-ornament left">
+                    <i class="fas fa-horse"></i>
+                </div>
+                <div class="header-content">
+                    <div class="cattle-icon">
+                        <i class="fas fa-cow"></i>
+                    </div>
+                    <h1 class="cattle-title">CATTLE DRIVE</h1>
+                    <p class="cattle-subtitle" id="cattle-location">Ranch</p>
+                </div>
+                <div class="header-ornament right">
+                    <i class="fas fa-location-dot"></i>
+                </div>
+                <button class="close-btn" id="close-menu">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <!-- Reward Summary -->
+            <div class="reward-summary">
+                <div class="summary-item">
+                    <i class="fas fa-coins"></i>
+                    <span class="summary-label">Payment</span>
+                    <span class="summary-value" id="reward-display">$0</span>
+                </div>
+            </div>
+
+            <!-- Destinations -->
+            <div class="destinations-list" id="destination-list">
+                <!-- Populated by JS -->
+            </div>
+
+            <!-- Footer -->
+            <div class="cattle-footer">
+                <div class="footer-content">
+                    <i class="fas fa-truck"></i>
+                    <p>Select a destination for your herd</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Prompt -->
+    <div id="prompt" class="hidden">
+        <span id="prompt-text"></span>
+    </div>
+
+    <!-- Completion Toast -->
+    <div id="complete-toast" class="hidden">
+        <div class="toast-content">
+            <i class="fas fa-check-circle"></i>
+            <span>Drive Complete! Payment received.</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
