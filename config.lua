@@ -28,7 +28,7 @@ Config.StartLocations = {
         },
         npc = {
             model = 'loansharking_horsechase1_males_01',
-            coords = vector3(-288.6, 643.3, 113.08),
+            coords = vector3(-288.6, 643.3, 113.08 -1),
             heading = 220.0,
             scenario = 'WORLD_HUMAN_SMOKE',
         },
@@ -45,7 +45,7 @@ Config.StartLocations = {
         },
         npc = {
             model = 'loansharking_horsechase1_males_01',
-            coords = vector3(1409.05, 290.77, 88.69),
+            coords = vector3(1409.05, 290.77, 88.69 -1),
             heading = 190.0,
             scenario = 'WORLD_HUMAN_SMOKE',
         },
@@ -62,7 +62,7 @@ Config.StartLocations = {
         },
         npc = {
             model = 'loansharking_horsechase1_males_01',
-            coords = vector3(-1730.22, -428.6, 152.02),
+            coords = vector3(-1730.22, -428.6, 152.02 -1),
             heading = 60.0,
             scenario = 'WORLD_HUMAN_SMOKE',
         },
@@ -79,7 +79,7 @@ Config.StartLocations = {
         },
         npc = {
             model = 'loansharking_horsechase1_males_01',
-            coords = vector3(2607.6, -765.93, 42.36),
+            coords = vector3(2607.6, -765.93, 42.36 -1),
             heading = 60.0,
             scenario = 'WORLD_HUMAN_SMOKE',
         },
@@ -98,7 +98,7 @@ Config.DeliveryPoints = {
         },
         npc = {
             model = 'loansharking_horsechase1_males_01',
-            coords = vector3(-2343.67, -2362.9, 62.02),
+            coords = vector3(-2343.67, -2362.9, 62.02 -1),
             heading = 40.0,
             scenario = 'WORLD_HUMAN_SMOKE',
         },
@@ -114,7 +114,7 @@ Config.DeliveryPoints = {
         },
         npc = {
             model = 'loansharking_horsechase1_males_01',
-            coords = vector3(1339.07, -1266.27, 77.61),
+            coords = vector3(1339.07, -1266.27, 77.61 -1),
             heading = 260.0,
             scenario = 'WORLD_HUMAN_SMOKE',
         },
@@ -130,7 +130,7 @@ Config.DeliveryPoints = {
         },
         npc = {
             model = 'loansharking_horsechase1_males_01',
-            coords = vector3(2903.3, 1285.17, 44.94),
+            coords = vector3(2903.3, 1285.17, 44.94 -1),
             heading = 140.0,
             scenario = 'WORLD_HUMAN_SMOKE',
         },
@@ -146,7 +146,7 @@ Config.DeliveryPoints = {
         },
         npc = {
             model = 'loansharking_horsechase1_males_01',
-            coords =vector3(-3663.03, -2563.95, -13.77),
+            coords =vector3(-3663.03, -2563.95, -13.77 -1),
             heading = 240.0,
             scenario = 'WORLD_HUMAN_SMOKE',
         },
