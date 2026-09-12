@@ -22,7 +22,7 @@ Config.StartLocations = {
         heading = 130.0,
         blip = {
             sprite = 423351566,   -- cattle/corral style blip
-            colour = 'COLOR_YELLOW',
+            colour = 'BLIP_MODIFIER_MP_COLOR_6',
             name = 'Cattle Drive | Valentine',
             scale = 0.9,
         },
@@ -39,7 +39,7 @@ Config.StartLocations = {
         heading = 100.0,
         blip = {
             sprite = 423351566,
-            colour = 'COLOR_YELLOW',
+            colour = 'BLIP_MODIFIER_MP_COLOR_6',
             name = 'Cattle Drive | Emerald',
             scale = 0.9,
         },
@@ -56,7 +56,7 @@ Config.StartLocations = {
         heading = 250.0,
         blip = {
             sprite =423351566,
-            colour = 'COLOR_YELLOW',
+            colour = 'BLIP_MODIFIER_MP_COLOR_6',
             name = 'Cattle Drive | strawberry',
             scale = 0.9,
         },
@@ -73,7 +73,7 @@ Config.StartLocations = {
         heading = 250.0,
         blip = {
             sprite =423351566,
-            colour = 'COLOR_YELLOW',
+            colour = 'BLIP_MODIFIER_MP_COLOR_6',
             name = 'Cattle Drive | st-denis',
             scale = 0.9,
         },
@@ -92,7 +92,7 @@ Config.DeliveryPoints = {
         coords = vector3(-2343.67, -2362.9, 62.02),
         blip = {
             sprite = 423351566,
-            colour = 'COLOR_GREEN',
+            colour = 'BLIP_MODIFIER_MP_COLOR_8',
             name = 'Delivery | mcfarlanes',
             scale = 0.9,
         },
@@ -108,7 +108,7 @@ Config.DeliveryPoints = {
         coords = vector3(1339.07, -1266.27, 77.61),
         blip = {
             sprite = 423351566,
-            colour = 'COLOR_GREEN',
+            colour = 'BLIP_MODIFIER_MP_COLOR_8',
             name = 'Delivery | Rhodes Depot',
             scale = 0.9,
         },
@@ -124,7 +124,7 @@ Config.DeliveryPoints = {
         coords = vector3(2903.3, 1285.17, 44.94),
         blip = {
             sprite = 423351566,
-            colour = 'COLOR_GREEN',
+            colour = 'BLIP_MODIFIER_MP_COLOR_8',
             name = 'Delivery | Van Horn Docks',
             scale = 0.9,
         },
@@ -140,7 +140,7 @@ Config.DeliveryPoints = {
         coords = vector3(-3663.03, -2563.95, -13.77),
         blip = {
             sprite = 423351566,
-            colour = 'COLOR_GREEN',
+            colour = 'BLIP_MODIFIER_MP_COLOR_8',
             name = 'Delivery | Armadillo',
             scale = 0.9,
         },
@@ -156,7 +156,7 @@ Config.DeliveryPoints = {
         coords = vector3(-5516.86, -3021.84, -2.63 -1),
         blip = {
             sprite = 423351566,
-            colour = 'COLOR_GREEN',
+            colour = 'BLIP_MODIFIER_MP_COLOR_8',
             name = 'Delivery | Tumbleweed',
             scale = 0.9,
         },
